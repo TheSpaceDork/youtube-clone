@@ -44,7 +44,7 @@ const [videos, setVideos] =useState([])
           color: 'white'
         }}
         >
-        {selectedCategory} <span style={{color: '#f31503'}}>videos</span>
+        {selectedCategory} <span style={{color: 'blue'}}>videos</span>
         </Typography>
 
         <Videos videos={videos} />

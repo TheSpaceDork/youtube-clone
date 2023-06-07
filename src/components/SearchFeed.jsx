@@ -29,7 +29,7 @@ const SearchFeed = () => {
           color: 'white'
         }}
         >
-       Search Results For: <span style={{color: '#f31503'}}>{searchTerm}</span>
+       Search Results For: <span style={{color: 'blue'}}>{searchTerm}</span>
         </Typography>
 
         <Videos videos={videos} />
